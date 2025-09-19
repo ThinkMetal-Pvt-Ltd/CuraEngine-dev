@@ -297,6 +297,7 @@ if (EMSCRIPTEN)
             "SHELL:-sALLOW_MEMORY_GROWTH=1"
             "SHELL:-sEXPORT_ES6=1"
             "SHELL:-sMODULARIZE=1"
+            # Embeds wasm module in one js file only
             "SHELL:-sSINGLE_FILE=1"
             "SHELL:-sENVIRONMENT=web"
             "SHELL:-sERROR_ON_UNDEFINED_SYMBOLS=0"
